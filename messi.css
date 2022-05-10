@@ -1,30 +1,63 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
-.background-img{
-    background-image: url("imgs/portada-banner-2-psg-1.jpg");
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    background-size:cover;
-    position:absolute;
+
+.background-img {
+    background-image: url("imgs/imgs/portada-banner-2-psg-1.jpg");
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    position: absolute;
 }
-.img-fluid{
-    width:30px;
-    height:25px;
+
+.img-fluid {
+    width: 30px;
+    height: 25px;
 }
-.headbar{
-    display:flex;
+
+.headbar {
+    display: flex;
     justify-content: space-between;
-    margin:50px;    
+    margin: 50px;
 }
-.logo{
-    display:flex;
-    gap:10px;
+
+.logo {
+    display: flex;
+    gap: 1px;
     font-size: 24px;
 }
-.lang{
-    color:#ffffff;
-    position:relative;
+
+.lang {
+    color: #ffffff;
+    position: relative;
+}
+
+.logo2 {
+    width: 98px;
+    height: 123px;
+    position: absolute;
+    top: 110px;
+    right: 50px;
+}
+
+.logo3 {
+    width: 645px;
+    height: 120px;
+    position: absolute;
+    bottom: 140px;
+    right: 60px;
+}
+
+.lionel {
+    position: absolute;
+    top: 65vh;
+    left: 63vw;
+    font-size: 2.5em;
+    margin: 0px !important;
+    letter-spacing: 40px;
+    padding-left: 0px;
+    line-height: 36px;
+    overflow: hidden;
 }
