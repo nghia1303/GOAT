@@ -1,17 +1,25 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-}
+    font-family: 'Montserrat', sans-serif !important;
+    margin:0;
+    padding:0;
 
-.background-img {
-    background-image: url("imgs/imgs/portada-banner-2-psg-1.jpg");
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    position: absolute;
 }
-
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.head-page{
+    width:100%;
+    height:100%;
+    background-image:url(/imgs/portada-banner-2-psg-1.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
 .img-fluid {
     width: 30px;
     height: 25px;
@@ -20,7 +28,7 @@ body {
 .headbar {
     display: flex;
     justify-content: space-between;
-    margin: 50px;
+    padding:50px;
 }
 
 .logo {
@@ -31,7 +39,6 @@ body {
 
 .lang {
     color: #ffffff;
-    position: relative;
 }
 
 .logo2 {
@@ -40,6 +47,7 @@ body {
     position: absolute;
     top: 110px;
     right: 50px;
+    opacity: 0.75;
 }
 
 .logo3 {
@@ -55,9 +63,76 @@ body {
     top: 65vh;
     left: 63vw;
     font-size: 2.5em;
-    margin: 0px !important;
     letter-spacing: 40px;
     padding-left: 0px;
     line-height: 36px;
-    overflow: hidden;
+}
+.timer{
+    background-color: #0e2b6f;
+}
+#demo{
+    color:#ec373d;
+    font-weight: 600;
+}
+.countdown{
+    display:flex;
+    font-size: 45px;
+    color:#ec373d;
+    font-weight: 600;
+    gap:7px;
+}
+div.s{
+    line-height: 70px;
+    word-wrap: break-word;
+}
+.messi-picture{
+    display:flex;
+}
+.welcome{
+    font-size:61px;
+    opacity: 0.86;
+    position: absolute;
+    margin-top:186px;
+    padding-top:80px;
+    padding-right: 230px;
+    display: block;
+}
+p.first-line{
+    /* color:#ec373d;
+    font-weight: 100;
+    background-color: #fff;
+    display:block;
+    margin-bottom: 10px;
+    padding-left: 50px; */
+    color: #ec373d;
+    background: rgba(255,255,255,0.95);
+    font-size: 2.95vw;
+    max-width: max-content;
+    margin: 0 0 3px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    padding-left: 4vw;
+    padding-right: 1vw;
+}
+p.second-line{
+    /* color:white;
+    font-weight: 900;
+    background-color:#0e2b6f;
+    padding-left: 50px;
+    padding-right: 120px; */
+    color: #ffffff;
+    background: rgba(14,43,111,0.8);
+    font-size: 2.95vw;
+    font-weight: 700;
+    min-width: max-content;
+    width: 44vw;
+    margin: 0 0 3px;
+    padding-left: 4vw;
+    padding-right: 1vw;
+}
+.grid{
+    display:grid;
+    
 }

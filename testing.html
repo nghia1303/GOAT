@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web oficial Leo Messi – Web oficial de Lionel Messi, jugador del Futbol Club Barcelona y uno de los mejores jugadores del mundo.</title>
+    <link rel="stylesheet" href="messi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/js/bootstrap.min.js">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    body,html{
+        width:100%;
+        height:100%;
+        margin:0;
+    }
+    .head-page{
+        width:100%;
+        height:100%;
+        background-image:url(/imgs/portada-banner-2-psg-1.jpg);
+        background-size:100%;
+    }
+</style>
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Oct 5, 2022 15:37:25").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+    
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+    
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+      // Display the result in the element with id="demo"
+      document.getElementById("days").innerHTML = days + " ";
+      document.getElementById("hours").innerHTML =" : "+ hours;
+      document.getElementById("minutes").innerHTML =": " + minutes;
+      document.getElementById("seconds").innerHTML = " : " + seconds; 
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+</script>
+<body>
+    
+    <script src="/effect.js"></script>
+    <div class="head-page">
+        <div class="headbar">
+            <div class="logo">
+                <div>
+                    <a href="#">
+                        <img src="imgs/imgs/messi-logo.png" class="img-fluid" alt="..." style="align-self:center;">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://messi.com/en/">
+                        <img src="imgs/imgs/cropped-messi-logo-01.png" class="logo2" alt="">
+                    </a>
+                </div>
+                <div>
+                    <img src="imgs/imgs/messi-lletres.png" class="logo3" alt="">
+                </div>
+                <div>
+                    <a href="#" style="text-decoration: none;">
+                        <span style="color:white;align-items: center;font-weight: 600;  ">MENU</span>
+                    </a>
+                </div>
+            </div>
+            <div class="lionel">
+                <a href="#" style="text-decoration: none;color:white; ">
+                    <span>LIONEL</span>
+                </a>
+            </div>
+
+            <div class="lang" style="float:right; font-size: 20px;">
+                <a href="#" style="text-decoration: none;color:white">
+                    <span>CAT</span>
+                </a>
+                <a href="#" style="text-decoration: none;color:white; font-weight: 900;">
+                    <strong>ENG</strong>
+                </a>
+                <a href="#" style="text-decoration: none;color:white">
+                    <span>ESP</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="next-match">
+        <div class="container-fluid timer">
+            <div class="row" style="padding-top:10px">
+                <div class="col-md text-end" style="font-weight: 750;font-size:25px;font-style:oblique;padding-top:18px;padding-bottom:0">
+                    <span style="color:#ec373d">NEXT</span>
+                    <span style="color:#fff">MATCH</span>
+                </div>
+                <div class="col-md align-items-center">
+                    <div class="countdown">
+                        <div class="days s">
+                            <span id="days"></span>
+                            <span style="font-size: 15px;color:white">days</span>
+                        </div>
+                        <div class="hours s">
+                            <span id="hours"></span>
+                            <span style="font-size: 15px;color:white">hours</span>
+                        </div>
+                        <div class="minutes s">
+                            <span id="minutes"></span>
+                            <span style="font-size: 15px;color:white">minutes</span>
+                        </div>
+                        <div class="seconds s">
+                            <span id="seconds"></span>
+                            <span style="font-size: 15px;color:white">seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid trigger" style="background-color:#dddd ;padding:0;position: relative;display:flex;">
+        <div class="messi-picture" id="this">
+            <div class="content">
+                <div class="welcome">
+                    <p class="first-line">WELCOME TO THE</p>
+                    <p class="second-line">LEO MESSI WEBSITE</p>
+                </div>
+            </div>
+        </div>
+        
+        <img id="dribbling" src="/imgs/Messi-silueta-1.png" alt="" style="width: 1050px;">
+        <div class="grid">
+            <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+            <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+            <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+        </div>
+    </div>
+
+</body>
+</html>
