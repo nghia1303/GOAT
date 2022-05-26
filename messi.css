@@ -7,6 +7,7 @@ body {
 *{
     margin:0;
     padding:0;
+    box-sizing: inherit !important;
 }
 body,html{
     width:100%;
@@ -61,14 +62,15 @@ body,html{
 .lionel {
     position: absolute;
     top: 65vh;
-    left: 63vw;
+    left: 62.6vw;
     font-size: 2.5em;
     letter-spacing: 40px;
-    padding-left: 0px;
+    padding-left: -1px;
     line-height: 36px;
 }
 .timer{
     background-color: #0e2b6f;
+    box-sizing: border-box !important;
 }
 #demo{
     color:#ec373d;
@@ -130,9 +132,110 @@ p.second-line{
     width: 44vw;
     margin: 0 0 3px;
     padding-left: 4vw;
-    padding-right: 1vw;
+    padding-right: 0;
 }
-.grid{
-    display:grid;
-    
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    column-gap: 10px;
+}
+.upcoming-match{
+    width:100%;
+}
+.match{
+    padding-bottom:50px;
+    background-color:#0e2b6f;
+    opacity: 0.85;
+}
+#middle-block{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#dribbling{
+    position:absolute;  
+}
+.matchday{
+    background: #fff;
+    padding: 2rem;
+    width: 28%;
+    height: 12%;
+    position: relative;
+    top: -2.5em;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+}
+.day{
+    font-size:45px;
+    color:#ec373d;
+    margin:5px;
+}
+.middle{
+    background: #fff;
+    padding: 2rem;
+    width: 28%;
+    height: 10%;
+    position: relative;
+    top: -2.5em;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+}
+.month{
+    color:rgba(14,43,111,1);
+    font-size:20px;
+    font-weight:300;
+}
+.match:hover{
+    background-color:#012069;
+    opacity: 1;
+}
+.time{
+    position:relative;
+    top:-2.4em;
+}
+.compete{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 0px;
+    color: #fff;
+    position: relative;
+    top: -1.8em;
+}
+.league{
+    text-align: center;
+    font-weight: normal;
+    font-size: 19px;
+    margin-bottom: 0px;
+    position: relative;
+    top: -0.8em;
+    line-height: 20px;
+    color: #fff;
+}
+.nation1{
+    /* width:48px;
+    height: 48px; */
+    text-align: center !important;
+}
+.image1{
+    width:48px;
+    height:48px;
+}
+.nation-name1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.nation-name2{
+    font-size: 28px;
+    font-weight: 600;
+}
+.image2{
+    width:48px;
+    height:48px;
 }
