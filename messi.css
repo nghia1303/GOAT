@@ -7,7 +7,7 @@ body {
 *{
     margin:0;
     padding:0;
-    box-sizing: inherit !important;
+    
 }
 body,html{
     width:100%;
@@ -20,6 +20,7 @@ body,html{
     background-image:url(/imgs/portada-banner-2-psg-1.jpg);
     background-repeat: no-repeat;
     background-size:100%;
+    
 }
 .img-fluid {
     width: 30px;
@@ -37,7 +38,6 @@ body,html{
     gap: 1px;
     font-size: 24px;
 }
-
 .lang {
     color: #ffffff;
 }
@@ -162,13 +162,12 @@ p.second-line{
 .matchday{
     background: #fff;
     padding: 2rem;
-    width: 28%;
-    height: 12%;
     position: relative;
     top: -2.5em;
     margin: 0 auto;
     text-align: center;
     line-height: 25px;
+    max-width: 40%;
 }
 .day{
     font-size:45px;
@@ -178,13 +177,13 @@ p.second-line{
 .middle{
     background: #fff;
     padding: 2rem;
-    width: 28%;
-    height: 10%;
     position: relative;
     top: -2.5em;
     margin: 0 auto;
     text-align: center;
     line-height: 25px;
+    max-width: 40%;
+
 }
 .month{
     color:rgba(14,43,111,1);
@@ -198,6 +197,7 @@ p.second-line{
 .time{
     position:relative;
     top:-2.4em;
+    font-size: 18px;
 }
 .compete{
     text-align: center;
