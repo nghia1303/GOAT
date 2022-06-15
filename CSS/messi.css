@@ -2,7 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif !important;
     margin:0;
     padding:0;
-
 }
 *{
     margin:0;
@@ -13,6 +12,7 @@ body,html{
     width:100%;
     height:100%;
     margin:0;
+    font-family:url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 }
 .head-page{
     width:auto;
@@ -168,6 +168,7 @@ p.second-line{
     text-align: center;
     line-height: 25px;
     max-width: 40%;
+    word-wrap: inherit;
 }
 .day{
     font-size:45px;
@@ -296,5 +297,17 @@ p.second-line{
     font-size:18px;
     
 }
+.title-news{
+    padding:46px;
+    
+    display:float;
+    float: left;
+}
+.title-head-news{
+    font-weight: 800;
+    font-size: 2.5vw;
+    float: left;
+    left: 2vw;
+    position: relative;
 
-
+}
