@@ -28,7 +28,6 @@ html {
     background-repeat: no-repeat;
     background-size:cover;
     padding:0 !important; 
-
 }
 .img-fluid {
     width: 30px;
@@ -79,6 +78,7 @@ html {
     opacity:0;
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
     transform: translateY(-10px);
+    z-index: 10;
 }
 
 .expand-menu.active > .menu-expanding + .menu-list{
@@ -108,4 +108,36 @@ html {
 }
 #end-page{
     width: 100%;
+}
+    
+.welcome {
+    font-size: 61px;
+    opacity: 0.86;
+    position: absolute;
+    margin-top: 186px;
+    padding-top: 80px;
+    padding-right: 230px;
+    display: block;
+    margin-left: 0;
+    
+}
+p.first-line {
+    width: max-content;
+    padding-right: 6.5vw;
+    padding-left: 3vw;
+    font-size: 7vh;
+    color: rgb(236, 55, 61);
+    line-height: 8vh;
+    margin-bottom: 1vh;
+    background: rgba(255, 255, 255, 0.9);
+}
+p.second-line {
+    width: max-content;
+    padding-right: 4vw;
+    padding-left: 5vw;
+    font-size: 6vh;
+    color: rgb(255, 255, 255);
+    line-height: 9vh;
+    font-weight: 700;
+    background: rgba(14, 43, 111, 0.9);
 }
