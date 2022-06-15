@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden;
+}
 body {
     font-family: 'Montserrat', sans-serif !important;
     margin:0;
@@ -247,11 +250,90 @@ p.second-line{
     top:0;
 }
 
-/* .background{
+.background{
     width: 1913px;
     height: 103px;
     background-color: black;
     color: white;
     font-size:small;
-} */
+}
 
+
+
+.googleplay {
+    position: relative;
+    top: 21vh;
+    left: 35vw;
+    font-size: 2.5em;
+    margin: 0px !important;
+    letter-spacing: 40px;
+    padding-left: 0px;
+    line-height: 36px;
+    overflow: hidden;
+}
+
+.apstore {
+    position: relative;
+    top: 21vh;
+    left: 40vw;
+    font-size: 2.5em;
+    margin: 0px !important;
+    letter-spacing: 40px;
+    padding-left: 0px;
+    line-height: 36px;
+    overflow: hidden;
+}
+
+.store {
+    background-color: #e3f2fd;
+    height: 475px;
+    width: 1332px;
+    margin-left: 800px;
+
+}
+
+.hoddieWhite {
+    top: vh;
+}
+
+.video {
+    text-align: left;
+}
+
+a:link,
+a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1300px;
+}
+
+a:hover,
+a:active {
+    background-color: red;
+}
+
+.text {
+    background-color: white;
+    width: 750px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.btn2 {
+    background-color: #e3f2fd;
+    border: none;
+    text-align: center;
+}
+
+.messi_noti_4 {
+    width: 32vw;
+    float: left;
+    height: 35vh;
+    background: rgba(255,255,255,1);
+    overflow: hidden;
+    margin-right: 3vh;
+}
