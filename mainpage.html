@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web oficial Leo Messi – Web oficial de Lionel Messi, jugador del Futbol Club Barcelona y uno de los mejores
         jugadores del mundo.</title>
-    <link rel="stylesheet" href="messi.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/messi.css">
+    
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./bootstrap/js/bootstrap.min.js">
 </head>
@@ -21,17 +21,10 @@
         height: 100%;
         margin: 0;
     }
-
-    .head-page {
-        width: 100%;
-        height: 100%;
-        background-image: url(/imgs/portada-banner-2-psg-1.jpg);
-        background-size: 100%;
-    }
 </style>
 <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("Oct 5, 2022 15:37:25").getTime();
+    var countDownDate = new Date("June 16, 2022 15:37:25").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -62,28 +55,38 @@
 </script>
 
 <body>
-
-    <script src="/effect.js"></script>
-    <div class="head-page container-fluid">
+    <div class="head-page">
         <div class="headbar">
             <div class="logo">
                 <div>
                     <a href="#">
-                        <img src="imgs/imgs/messi-logo.png" class="img-fluid" alt="..." style="align-self:center;">
-                    </a>
-                </div>
-                <div>
-                    <a href="https://messi.com/en/">
                         <img src="imgs/imgs/cropped-messi-logo-01.png" class="logo2" alt="">
                     </a>
                 </div>
                 <div>
                     <img src="imgs/imgs/messi-lletres.png" class="logo3" alt="">
                 </div>
-                <div>
-                    <a href="#" style="text-decoration: none;">
-                        <span style="color:white;align-items: center;font-weight: 600;  ">MENU</span>
-                    </a>
+                <div class="menu">
+                    <div class="expand-menu" data-dropdown>
+                        <button class="menu-expanding" style="color:white;align-items: center;font-weight: 600;"
+                            data-dropdown-button>
+                            <img src="imgs/imgs/messi-logo.png" class="img-fluid" alt="..." style="align-self:center;">
+                            MENU
+                        </button>
+                        <div class="menu-list">
+                            <div class="list">
+                                <a href="" class="menu-link">HOME</a>
+                                <a href="./PRESS ROOM/pressroom.html" class="menu-link">PRESS ROOM</a>
+                                <a href="" class="menu-link">NEWS</a>
+                                <a href="" class="menu-link">BIOGRAPHY</a>
+                                <a href="" class="menu-link">THE MESSI STORE</a>
+                                <a href="" class="menu-link">STATS</a>
+                                <a href="" class="menu-link">ACHIEVEMENTS</a>
+                                <a href="" class="menu-link">PHOTOS AND VIDEOS</a>
+                                <a href="" class="menu-link">SOCIAL MEDIA</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="lionel">
@@ -147,20 +150,25 @@
                                 <span class="month">MAY</span>
                             </div>
                             <p class="text-center time fw-bold">
-                                20:45
-                                <span>GMT +1</span>
+                                FINISHED
+                                <span></span>
                             </p>
-                            <p class="compete">Final</p>
-                            <p class="league">Finalissima</p>
+                            <p class="compete">Matchday 38</p>
+                            <p class="league">Ligue1</p>
                             <div class="nation1">
                                 <img src="/imgs/Club/PSG-2.png" class="image1" alt="">
                             </div>
                             <div class="nation-name1">
-                                <p>PSG</p>
+                                <p>PSG <span
+                                        style="border:solid ; background-color: white; color: black; padding:7px;border-color: white;">
+                                        5 </span></p>
+
                             </div>
                             <p class="vs">vs</p>
                             <div class="nation-name2">
-                                <p>Metz</p>
+                                <p>Metz <span
+                                        style="border:solid ; background-color: white; color: black; padding:7px;border-color: white;">
+                                        0 </span> </p>
                             </div>
                             <div class="nation2">
                                 <img src="/imgs/Club/image.png" class="image2" alt="">
@@ -171,26 +179,31 @@
                                 <span class="day" style="font-weight: 100;">01</span>
                                 <span class="month">JUN</span>
                             </div>
-                            <p class="text-center time fw-bold" style="top:-3.6em">
+
+                            <p class="text-center time fw-bold">
                                 20:45
                                 <span>GMT +1</span>
                             </p>
                             <div class="center-card">
-                                <p>Final</p>
-                                <p>Finalissima</p>
+                                <p class="compete">Final</p>
+                                <p class=league>Finalissima</p>
                             </div>
                             <div class="nation1">
-                                <img src="/imgs/Club/PSG-2.png" class="image1" alt="">
+                                <img src="imgs/Nation/Argentina.png" class="image1" alt="">
                             </div>
                             <div class="nation-name1">
-                                <p>Argentina</p>
+                                <p>Argentina <span
+                                        style="border:solid ; background-color: white; color: black; padding: 7px;border-color: white;">
+                                        3 </span></p>
                             </div>
                             <p class="vs">vs</p>
                             <div class="nation-name2">
-                                <p>Italia</p>
+                                <p>Italia <span
+                                        style="border:solid ; background-color: white; color: black; padding:7px;border-color: white;">
+                                        0 </span></p>
                             </div>
                             <div class="nation2">
-                                <img src="/imgs/Club/image.png" class="image2" alt="">
+                                <img src="/imgs/Nation/flagge-italien.gif" class="image2" alt="">
                             </div>
                         </div>
                         <div class="col match" id="middle-block">
@@ -199,23 +212,27 @@
                                 <span class="month">JUN</span>
                             </div>
                             <p class="text-center time fw-bold">
-                                20:45
+                                20:00
                                 <span>GMT +1</span>
                             </p>
-                            <p class="compete">Final</p>
-                            <p class="league">Finalissima</p>
+                            <p class="compete">Selecciones</p>
+                            <p class="league">Friendly match</p>
                             <div class="nation1">
-                                <img src="/imgs/Club/PSG-2.png" class="image1" alt="">
+                                <img src="/imgs/Nation/Argentina.png" class="image1" alt="">
                             </div>
                             <div class="nation-name1">
-                                <p>Argentina</p>
+                                <p>Argentina <span
+                                        style="border:solid ; background-color: white; color: black; padding: 7px;border-color: white;">
+                                        5 </span></p>
                             </div>
                             <p class="vs">vs</p>
                             <div class="nation-name2">
-                                <p>Estonia</p>
+                                <p>Estonia <span
+                                        style="border:solid ; background-color: white; color: black; padding: 7px;border-color: white;">
+                                        0 </span></p>
                             </div>
                             <div class="nation2">
-                                <img src="/imgs/Club/image.png" class="image2" alt="">
+                                <img src="/imgs/Nation/estonia.png" class="image2" alt="">
                             </div>
                         </div>
                     </div>
@@ -333,18 +350,31 @@
     <div>
             <img  src="./IMG/z3492615091018_ff32c384d80dac8e751c72159db87204.jpg" style="width: 100%;">
             
+    <div class="container-fluid news">
+        <div class="title-news">
+            <p class="title-head-news">
+                NEWS
+            </p>
+        </div>
+    </div>
+    <div>
+        <img src="https://static.messi.com/wp-content/uploads/2021/08/footer-PSG.jpg" style="width: 100%;" img />
     </div>
     <div class="background" style="text-align:center; width: 100%;">
-            <p>
-                Copyright ©&nbsp;2022 · messi.com Leo Messi Management S.L.U. | Términos Y Condiciones | Políticas de privacidad | Políticas de cookies | info@messi.com
-            </p>
-            <p>
-                <span>
-                    Esta web pertenece a Leo Messi Management S.L.U., compañia española con código de Identificación Fiscal(C.I.F) B-65073694, inscrita en el Registro Mercantil de Barcelona en el Torno 41.224, Folio 191, Sección, Hoja 383226, Inscripción I/A 1.
-                </span>
-            </p>
+        <p>
+            Copyright ©&nbsp;2022 · messi.com Leo Messi Management S.L.U. | Términos Y Condiciones | Políticas de
+            privacidad | Políticas de cookies | info@messi.com
+        </p>
+        <p>
+            <span>
+                Esta web pertenece a Leo Messi Management S.L.U., compañia española con código de Identificación
+                Fiscal(C.I.F) B-65073694, inscrita en el Registro Mercantil de Barcelona en el Torno 41.224, Folio 191,
+                Sección, Hoja 383226, Inscripción I/A 1.
+            </span>
+        </p>
     </div>
-
+    
+    <script src="./JS/messi.js" defer></script>
 </body>
 
 </html>
