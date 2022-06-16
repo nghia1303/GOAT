@@ -1,10 +1,8 @@
-html{
-    overflow-x: hidden;
-}
 body {
     font-family: 'Montserrat', sans-serif !important;
     margin:0;
     padding:0;
+
 }
 *{
     margin:0;
@@ -15,7 +13,6 @@ body,html{
     width:100%;
     height:100%;
     margin:0;
-    font-family:url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 }
 .head-page{
     width:auto;
@@ -145,9 +142,9 @@ p.second-line{
     display: table;
     clear: both;
 }
-.row{
+.row.match-coming{
     column-gap: 10px;
-}
+} 
 .upcoming-match{
     width:100%;
 }
@@ -172,7 +169,6 @@ p.second-line{
     text-align: center;
     line-height: 25px;
     max-width: 40%;
-    word-wrap: inherit;
 }
 .day{
     font-size:45px;
@@ -244,14 +240,6 @@ p.second-line{
     width:48px;
     height:48px;
 }
-#center-block{
-    font-size: 25px !important;
-    font-weight: 600;
-}
-.center-card{
-    top:0;
-}
-
 .background{
     width: 1913px;
     height: 103px;
@@ -259,85 +247,6 @@ p.second-line{
     color: white;
     font-size:small;
 }
-
-
-
-.googleplay {
-    position: relative;
-    top: 21vh;
-    left: 35vw;
-    font-size: 2.5em;
-    margin: 0px !important;
-    letter-spacing: 40px;
-    padding-left: 0px;
-    line-height: 36px;
-    overflow: hidden;
-}
-
-.apstore {
-    position: relative;
-    top: 21vh;
-    left: 40vw;
-    font-size: 2.5em;
-    margin: 0px !important;
-    letter-spacing: 40px;
-    padding-left: 0px;
-    line-height: 36px;
-    overflow: hidden;
-}
-
-.store {
-    background-color: #e3f2fd;
-    height: 475px;
-    width: 1332px;
-    margin-left: 800px;
-
-}
-
-.hoddieWhite {
-    top: vh;
-}
-
-.video {
-    text-align: left;
-}
-
-a:link,
-a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 1300px;
-}
-
-a:hover,
-a:active {
-    background-color: red;
-}
-
-.text {
-    background-color: white;
-    width: 750px;
-    padding: 50px;
-    margin: 20px;
-}
-
-.btn2 {
-    background-color: #e3f2fd;
-    border: none;
-    text-align: center;
-}
-
-.messi_noti_4 {
-    width: 32vw;
-    float: left;
-    height: 35vh;
-    background: rgba(255,255,255,1);
-    overflow: hidden;
-    margin-right: 3vh;
 .menu-expanding{
     background-color: transparent;
     border: none;
@@ -388,17 +297,46 @@ a:active {
     font-size:18px;
     
 }
-.title-news{
-    padding:46px;
-    
-    display:float;
-    float: left;
-}
-.title-head-news{
-    font-weight: 800;
-    font-size: 2.5vw;
-    float: left;
-    left: 2vw;
-    position: relative;
 
+
+ .googleplay {
+    position: relative;
+    top: 21vh;
+    left: 35vw;
+    font-size: 2.5em;
+    margin: 0px !important;
+    letter-spacing: 40px;
+    padding-left: 0px;
+    line-height: 36px;
+    overflow: hidden;
 }
+
+.apstore {
+    position: relative;
+    top: 21vh;
+    left: 40vw;
+    font-size: 2.5em;
+    margin: 0px !important;
+    letter-spacing: 40px;
+    padding-left: 0px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.goods{
+    display: flex;
+}
+
+
+.text {
+    background-color: white;
+    width: 750px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.store{
+    background-color: #012069;
+    height: 486px;
+    width: 2000x;
+}
+
