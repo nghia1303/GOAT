@@ -24,12 +24,14 @@
     min-width: 280px;
     display:block;
     opacity:0;
+    pointer-event:none;
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
     transform: translateY(-10px);
 }
 
 .expand-menu.active > .menu-expanding + .menu-list{
     opacity:1;
+    pointer-event:auto;
     transform: translateY(0);
 }
 
