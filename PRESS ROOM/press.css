@@ -141,3 +141,20 @@ p.second-line {
     font-weight: 700;
     background: rgba(14, 43, 111, 0.9);
 }
+.card-img-top {
+    
+    
+    vertical-align: middle;
+    width: 100%;
+    width: 541px;
+    height: 305px;
+}
+.btn btn-primary  {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    color: #fff;
+    font-size: 12px;
+    margin: auto;
+    background: #0e2b6f;
+}
