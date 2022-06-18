@@ -1,11 +1,9 @@
-
 body {
     font-family: 'Montserrat', sans-serif !important;
     margin: 0;
     padding: 0;
 
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -17,20 +15,21 @@ html {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-.head-page{
-    width:100%;
-    height:100%;
+.head-page {
+    width: 100%;
+    height: 100%;
     position: relative;
     background-position-y:bottom;
     background-image:url(/imgs/z3496627284122_486118084530db8e005693156ae66834\(1\).jpg);
+    background-position-y: bottom;
     background-repeat: no-repeat;
-    background-size:cover;
-    padding:0 !important; 
-
+    background-size: cover;
+    padding: 0 !important;
 }
+
 .img-fluid {
     width: 30px;
     height: 25px;
@@ -44,6 +43,7 @@ html {
     height: 123px;
     opacity: 0.75;
 }
+
 .logo {
     display: flex;
     gap: 1px;
@@ -55,64 +55,17 @@ html {
     justify-content: space-between;
     padding: 50px;
 }
-.menu-expanding{
-    background-color: transparent;
-    border: none;
-    margin: 10px;
-}
 
-.bi bi-x-circle{
-    font-size:20px !important;
-}
-.expand-menu{
-    position:relative;
-}
-
-.menu-list{
-    border-radius: 9px;
-    position:absolute;
-    color:white;
-    background: linear-gradient(to bottom,rgba(14,43,111,0.9) 45%,rgba(14,43,111,0) 100%);
-    height: 100vh !important;
-    width: 20vw !important;
-    min-width: 280px;
-    display:block;
-    opacity:0;
-    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-    transform: translateY(-10px);
-    z-index: 10;
-}
-
-.expand-menu.active > .menu-expanding + .menu-list{
-    opacity:1;
-    transform: translateY(0);
-}
-
-.list{
-    display:flex;
-    flex-direction: column;
-    gap:4px;
-    margin-top: 15px;
-}
-.menu-link:hover{
-    color:#ec373d;
-    transition: 0.6s;
-}
-.menu-link{
-    text-decoration: none;
-    color :white;
-    margin-left: 50px;
-    font-size:18px;
-}
-.sponsored{
+.sponsored {
     position: relative;
     padding: 0 !important;
 }
-#end-page{
+
+#end-page {
     width: 100%;
 }
 
-    
+
 .welcome {
     font-size: 61px;
     opacity: 0.86;
@@ -122,8 +75,9 @@ html {
     padding-right: 230px;
     display: block;
     margin-left: 0;
-    
+
 }
+
 p.first-line {
     width: max-content;
     padding-right: 6.5vw;
@@ -134,6 +88,7 @@ p.first-line {
     margin-bottom: 1vh;
     background: rgba(255, 255, 255, 0.9);
 }
+
 p.second-line {
     width: max-content;
     padding-right: 4vw;
@@ -146,17 +101,57 @@ p.second-line {
 }
 
 
-.menu-expanding{ background-color: transparent; border: none; margin: 10px; }
+.menu-expanding {
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+}
 
-.bi bi-x-circle{ font-size:20px !important; } .expand-menu{ position:relative; }
+.bi bi-x-circle {
+    font-size: 20px !important;
+}
 
-.menu-list{ border-radius: 9px; position:absolute; color:white; background: linear-gradient(to bottom,rgba(14,43,111,0.9) 45%,rgba(14,43,111,0) 100%); height: 100vh !important; width: 20vw !important; min-width: 280px; display:block; opacity:0; pointer-event:none; transition: opacity 150ms ease-in-out, transform 150ms ease-in-out; transform: translateY(-10px); }
+.expand-menu {
+    position: relative;
+}
 
-.expand-menu.active > .menu-expanding + .menu-list{ opacity:1; pointer-event:auto; transform: translateY(0); }
+.menu-list {
+    border-radius: 9px;
+    position: absolute;
+    color: white;
+    background: linear-gradient(to bottom, rgba(14, 43, 111, 0.9) 45%, rgba(14, 43, 111, 0) 100%);
+    height: 100vh !important;
+    width: 20vw !important;
+    min-width: 280px;
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    transform: translateY(-10px);
+}
 
-.list{ display:flex; flex-direction: column; gap:4px; margin-top: 15px; } 
-.menu-link:hover{ color:#ec373d; transition: 0.6s; } 
+.expand-menu.active > .menu-expanding+.menu-list {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
 
-.menu-link{ text-decoration: none; color :white; margin-left: 50px; font-size:18px;
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 15px;
+}
+
+.menu-link:hover {
+    color: #ec373d;
+    transition: 0.6s;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-size: 18px;
 
 }
