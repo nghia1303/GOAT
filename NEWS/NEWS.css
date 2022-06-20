@@ -154,3 +154,47 @@ p.second-line {
     font-size: 18px;
 
 }
+.messi-shirt-number{
+    position: absolute;
+    bottom:28em;
+    left:21.3em;
+    margin-bottom: 2em;
+}
+@font-face {
+    font-family: BigShouldersText;
+    src: url(../fonts/Big_Shoulders_Text/BigShouldersText-VariableFont_wght.ttf);
+    
+}
+.number{
+    color:aliceblue;
+    opacity: 0.55;
+    font-size:12em;
+    font-family: BigShouldersText;
+}
+.lionel-text{
+    position: absolute;
+    bottom:28em;
+    left:21.3em;
+}
+.lionel{
+    font-size: 3em;
+    color:rgba(254,97,106,0.9);
+    margin-right:4em;
+}
+.messi-cropped-image{
+    position: absolute;
+    bottom:12em;
+    left:21em;
+}
+.cropped-image{
+    width:150%;
+}
+.messi-cut-image{
+    position:absolute;
+    bottom: 0;
+    left: 1em;
+}
+.messi{
+    width:95%;
+    z-index: 10;
+}
