@@ -23,7 +23,7 @@ html {
     height: 100%;
     position: relative;
     background-position-y:bottom;
-    background-image:url(/imgs/z3496627284122_486118084530db8e005693156ae66834\(1\).jpg);
+    background-image:url(../imgs/News/news-background.jpg);
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -157,8 +157,8 @@ p.second-line {
 }
 .messi-shirt-number{
     position: absolute;
-    bottom:28em;
-    left:21.3em;
+    bottom:18em;
+    left:17em;
     margin-bottom: 2em;
 }
 @font-face {
@@ -174,18 +174,18 @@ p.second-line {
 }
 .lionel-text{
     position: absolute;
-    bottom:28em;
-    left:21.3em;
+    bottom:20em;
+    left:17.3em;
 }
 .lionel{
-    font-size: 3em;
+    font-size: 2em;
     color:rgba(254,97,106,0.9);
     margin-right:4em;
 }
 .messi-cropped-image{
     position: absolute;
-    bottom:12em;
-    left:21em;
+    bottom:10em;
+    left:17em;
 }
 .cropped-image{
     width:150%;
