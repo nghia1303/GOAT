@@ -21,7 +21,7 @@ body,html{
     background-image:url(/imgs/achievement/Vestuari-1-1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    z-index: -1;
+  
 }
 .img-fluid {
     width: 30px;
@@ -61,6 +61,7 @@ body,html{
    height: auto;
    vertical-align: top;
    max-width: 100%;
+  
 }
 .menu-expanding{
     background-color: transparent;
@@ -112,18 +113,6 @@ body,html{
     margin-left: 50px;
     font-size:18px;
 }
-.barca {
-    background: linear-gradient(45deg, rgba(30,39,59,1) 0%, rgba(46,59,88,1) 70%, rgba(8,143,180,1) 100%);
-    position: relative;
-}
-.title-barca {
-    width: 70vw;
-    color: rgba(245,245,245,0.95);
-    text-align: center;
-    font-size: 3vw;
-    font-weight: 800;
-    margin-top: 60px;
-    margin-left: 7vw;
-    line-height: 5.5vw;
-    position: relative;
+#bg-barca {
+    background-color: rgb(26, 152, 187);
 }
