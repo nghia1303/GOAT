@@ -54,6 +54,7 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    z-index:1;
 }
 
 .sponsored {
@@ -157,7 +158,7 @@ p.second-line {
 }
 .messi-shirt-number{
     position: absolute;
-    bottom:18em;
+    bottom:25em;
     left:17em;
     margin-bottom: 2em;
 }
@@ -169,18 +170,18 @@ p.second-line {
 .number{
     color:aliceblue;
     opacity: 0.55;
-    font-size:12em;
+    font-size:15em;
     font-family: BigShouldersText;
 }
 .lionel-text{
     position: absolute;
-    bottom:20em;
+    bottom:26em;
     left:17.3em;
 }
 .lionel{
     font-size: 2em;
     color:rgba(254,97,106,0.9);
-    margin-right:4em;
+    margin-right:6.7em;
 }
 .messi-cropped-image{
     position: absolute;
@@ -188,14 +189,17 @@ p.second-line {
     left:17em;
 }
 .cropped-image{
-    width:150%;
+    width:150%; 
 }
 .messi-cut-image{
     position:absolute;
     bottom: 0;
-    left: 1em;
+    left: 10em;
+    right:10em;
 }
 .messi{
     width:95%;
-    z-index: 10;
+}
+.details{
+    z-index: 1;
 }
