@@ -75,7 +75,7 @@ html {
     width: 20vw !important;
     min-width: 280px;
     display:block;
-    opacity:0;
+    pointer-events: none;
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
     transform: translateY(-10px);
     z-index: 10;
@@ -83,6 +83,7 @@ html {
 
 .expand-menu.active > .menu-expanding + .menu-list{
     opacity:1;
+    pointer-events:auto;
     transform: translateY(0);
 }
 
