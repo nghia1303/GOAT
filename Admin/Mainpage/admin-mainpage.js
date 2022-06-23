@@ -142,6 +142,7 @@ function edit(id){
 
     titleText = document.querySelector(`#title-${id}`);
     bodyText = document.querySelector(`#body-${id}`);
+
     titleText.value = newsData.title;
     bodyText.value = newsData.body;
 
@@ -183,13 +184,18 @@ function saveContent(id){
 
 
 
-function saveContent(){
+function addNew(){
     let newContent = {
         id : news.length + 1,
         title : inputTitle.value,
         body : inputBody.value,
     }
-    news.push(newContent);
+    if (rowNumber == 5){
+        return;
+    }
+    else {
+        news.push(newContent);
+    }
     data();
 }
 
@@ -204,7 +210,7 @@ function addRow(){
         <textarea class="form-control" id="add-title" rows="3"></textarea>
     <label class="form-label">Body</label>
         <textarea class="form-control" id="add-body" rows="3"></textarea>
-    <button id="save-content" onclick="saveContent()" class="btn btn-success">SAVE</button>`
+    <button id="save-content" onclick="addNew()" class="btn btn-success">SAVE</button>`
     document.body.append(addForm);
 
     inputTitle = document.getElementById('add-title');
@@ -222,24 +228,9 @@ function addRow(){
         backdrop = null;
     })
 }
-inputTitle = document.getElementById('add-title');
-inputBody = document.getElementById('add-body');
 
-
-function saveContent(){
-    let newContent = {
-        id : news.length + 1,
-        title : inputTitle.value,
-        body : inputBody.value,
-    }
-    if (rowNumber == 5){
-        return;
-    }
-    else {
-        news.push(newContent);
-    }
-    data();
-}
+var inputTitle = document.getElementById('add-title');
+var inputBody = document.getElementById('add-body');
 
 data();
 
